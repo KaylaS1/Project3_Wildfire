@@ -69,12 +69,12 @@ def logistic_regression_model_generator(X_train, X_test, y_train, y_test, r_stat
     pred_probas_firsts = [prob[1] for prob in pred_probas]
     print(f"Logistic Regression roc_auc_score: {roc_auc_score(y_train, pred_probas_firsts)}")
 
-def random_forest_model_generator(X_train, X_test, y_train, y_test, r_state, estimator_count, X_columns):
+def random_forest_model_generator(X_train, X_test, y_train, y_test, r_state, estimator_count):
     """
     Generates and fits a Random Forest model.
     Uses training and testing data passed in as arguments.
     Makes predictions using testing data.
-    Prints model accuracy score and top 10 most important features.
+    Prints model accuracy scores.
     Does not return anything.
     """
     # Create the random forest classifier instance
@@ -92,13 +92,6 @@ def random_forest_model_generator(X_train, X_test, y_train, y_test, r_state, est
     # Print accuracy scores
     display_accuracy_scores("Random Forest", y_test, predictions)
     
-    # Get the feature importance array
-    importances = model.feature_importances_
-
-    # List the top 10 most important features
-    importances_sorted = sorted(zip(model.feature_importances_, X_columns), reverse=True)
-    print(f"{importances_sorted[:10]}")
-
 def svm_model_generator(X_train, X_test, y_train, y_test, m_type):
     """
     Generates and fits a Support Vector Machine model.
