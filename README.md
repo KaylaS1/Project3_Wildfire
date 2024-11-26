@@ -3,9 +3,9 @@
 ## Built a CNN model and used pre-trained ML models to predict wildfire.
 I used a combination of a CNN model and pre-trained ML models to train, test and predict wildfires. I also included NLP and GenAI models to ask random questions about wildfires and prevention.
 
-### Data Source - https://www.kaggle.com/datasets/abdelghaniaaba/wildfire-prediction-dataset
-### Original Data Source - https://open.canada.ca/data/en/dataset/9d8f219c-4df0-4481-926f-8a2a532ca003
-### Creative Commons 4.0 Attribution (CC-BY) license – Quebec - https://www.donneesquebec.ca/licence/
+#### Data Source - https://www.kaggle.com/datasets/abdelghaniaaba/wildfire-prediction-dataset
+#### Original Data Source - https://open.canada.ca/data/en/dataset/9d8f219c-4df0-4481-926f-8a2a532ca003
+#### Creative Commons 4.0 Attribution (CC-BY) license – Quebec - https://www.donneesquebec.ca/licence/
 
 ### Step 1: Preprocessing of data
 * Resized images to 32X32.
