@@ -44,3 +44,4 @@ I used a combination of a CNN model and pre-trained ML models to train, test and
 
 ### Sources of code
 * Most of my code is based on code provided in exercises across multiple weeks during the AI Bootcamp.
+* Code for my CNN model is from https://www.kaggle.com/code/yassinosama911/wild-fire-cnn-accuracy-95.
